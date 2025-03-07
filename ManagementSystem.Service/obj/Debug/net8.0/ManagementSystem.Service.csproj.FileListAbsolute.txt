@@ -1,0 +1,12 @@
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\bin\Debug\net8.0\ManagementSystem.Service.deps.json
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\bin\Debug\net8.0\ManagementSystem.Service.dll
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\bin\Debug\net8.0\ManagementSystem.Service.pdb
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ManagementSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ManagementSystem.Service.AssemblyInfoInputs.cache
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ManagementSystem.Service.AssemblyInfo.cs
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ManagementSystem.Service.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ManagementSystem.Service.sourcelink.json
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ManagementSystem.Service.dll
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\refint\ManagementSystem.Service.dll
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ManagementSystem.Service.pdb
+C:\Users\user\Documents\תכנות שנה ב\net\Project\ManagementSystem\ManagementSystem.Service\obj\Debug\net8.0\ref\ManagementSystem.Service.dll
