@@ -1,17 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj": {}
+    "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
+    "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\ManagementSystem.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
-        "projectName": "ManagementSystem.Data",
-        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\ManagementSystem.Core.csproj",
+        "projectName": "ManagementSystem.Core",
+        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\ManagementSystem.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
+        "projectName": "ManagementSystem.Data",
+        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +125,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -87,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj": {
+    "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\ManagementSystem.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj",
-        "projectName": "ManagementSystem.API",
-        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\ManagementSystem.Service.csproj",
+        "projectName": "ManagementSystem.Service",
+        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\ManagementSystem.Service.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,8 +194,83 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
-                "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj"
+              "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj",
+        "projectName": "ManagementSystem.API",
+        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\ManagementSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\ManagementSystem.Core.csproj"
+              },
+              "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj"
+              },
+              "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\ManagementSystem.Service.csproj": {
+                "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\ManagementSystem.Service.csproj"
               }
             }
           }
@@ -137,6 +291,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

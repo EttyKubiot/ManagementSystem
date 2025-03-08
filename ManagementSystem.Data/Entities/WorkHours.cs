@@ -6,7 +6,7 @@ namespace ManagementSystem.Data
     {
         public int Id { get; set; }
         public int UserId { get; set; } // Foreign Key
-        public User User { get; set; }
+        public User? User { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
     }

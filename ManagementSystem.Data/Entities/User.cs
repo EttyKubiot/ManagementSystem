@@ -9,9 +9,9 @@ namespace ManagementSystem.Data.Entities
         public required string LastName { get; set; }
         public required string Email { get; set; }
         // קשרים
-        public List<WorkHours> WorkHours { get; set; }
-        public List<LeaveRequest> LeaveRequests { get; set; }
+        public List<WorkHours>? WorkHours { get; set; }
+        public List<LeaveRequest>? LeaveRequests { get; set; }
         public int RoleId { get; set; } // Foreign Key
-        public Role Role { get; set; }
+        public Role? Role { get; set; }
     }
 }

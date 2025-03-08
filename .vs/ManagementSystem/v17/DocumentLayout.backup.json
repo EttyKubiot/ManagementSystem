@@ -1,34 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\Migrations\\20250307093719_myMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ManagementSystem.Data\\Migrations\\20250307093719_myMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\project\\managementsystem\\managementsystem.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|solutionrelative:managementsystem.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\project\\managementsystem\\managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|solutionrelative:managementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\project\\managementsystem\\managementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|solutionrelative:managementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\project\\managementsystem\\managementsystem.data\\managementsystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|solutionrelative:managementsystem.data\\managementsystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|solutionrelative:managementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\project\\managementsystem\\managementsystem.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|solutionrelative:managementsystem.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\obj\\Debug\\net8.0\\ManagementSystem.API.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ManagementSystem\\obj\\Debug\\net8.0\\ManagementSystem.API.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\project\\managementsystem\\managementsystem.data\\entities\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|solutionrelative:managementsystem.data\\entities\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.data\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|solutionrelative:managementsystem.data\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|solutionrelative:managementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem\\managementsystem.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|solutionrelative:managementsystem\\managementsystem.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.core\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|solutionrelative:managementsystem.core\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem\\models\\userpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48744C45-3D21-4236-BACC-5B881E8E987E}|ManagementSystem\\ManagementSystem.API.csproj|solutionrelative:managementsystem\\models\\userpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.core\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|solutionrelative:managementsystem.core\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.core\\dtos\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|solutionrelative:managementsystem.core\\dtos\\leaverequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.core\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|solutionrelative:managementsystem.core\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.core\\dtos\\workhoursdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|solutionrelative:managementsystem.core\\dtos\\workhoursdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6957B1F-C318-4E7F-B178-743F4228A036}|ManagementSystem.Core\\ManagementSystem.Core.csproj|solutionrelative:managementsystem.core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|solutionrelative:managementsystem.data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790971C0-6867-44E4-91F7-D6C67DE35611}|ManagementSystem.Service\\ManagementSystem.Service.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790971C0-6867-44E4-91F7-D6C67DE35611}|ManagementSystem.Service\\ManagementSystem.Service.csproj|solutionrelative:managementsystem.service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|c:\\users\\user\\documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\mynetproject\\managementsystem\\managementsystem.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D0829-B83C-433F-9F31-9BA824CCE3E6}|ManagementSystem.Data\\ManagementSystem.Data.csproj|solutionrelative:managementsystem.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +78,227 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250307093719_myMigration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\Migrations\\20250307093719_myMigration.cs",
-              "RelativeDocumentMoniker": "ManagementSystem.Data\\Migrations\\20250307093719_myMigration.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\Migrations\\20250307093719_myMigration.cs",
-              "RelativeToolTip": "ManagementSystem.Data\\Migrations\\20250307093719_myMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ManagementSystem.API.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\obj\\Debug\\net8.0\\ManagementSystem.API.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ManagementSystem\\obj\\Debug\\net8.0\\ManagementSystem.API.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\obj\\Debug\\net8.0\\ManagementSystem.API.AssemblyInfo.cs",
+              "RelativeToolTip": "ManagementSystem\\obj\\Debug\\net8.0\\ManagementSystem.API.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T09:37:19.358Z",
+              "WhenOpened": "2025-03-08T21:56:54.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ManagementSystem.Data",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
-              "RelativeDocumentMoniker": "ManagementSystem.Data\\ManagementSystem.Data.csproj",
-              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
-              "RelativeToolTip": "ManagementSystem.Data\\ManagementSystem.Data.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-07T09:24:44.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "ManagementSystem.Data\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\Entities\\User.cs",
-              "RelativeToolTip": "ManagementSystem.Data\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\Entities\\LoginModel.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Data\\Entities\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\Entities\\LoginModel.cs",
+              "RelativeToolTip": "ManagementSystem.Data\\Entities\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:52:23.962Z",
+              "WhenOpened": "2025-03-08T21:54:06.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "ManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem\\Program.cs",
-              "RelativeToolTip": "ManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ManagementSystem\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ManagementSystem\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:21:05.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "ManagementSystem\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem\\appsettings.json",
-              "RelativeToolTip": "ManagementSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-07T08:19:38.446Z",
+              "WhenOpened": "2025-03-08T21:45:46.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "ManagementSystem.Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\DataContext.cs",
-              "RelativeToolTip": "ManagementSystem.Data\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:19:12.994Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "ManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\appsettings.json",
+              "RelativeToolTip": "ManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T21:43:37.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LeaveRequest.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\Entities\\LeaveRequest.cs",
-              "RelativeDocumentMoniker": "ManagementSystem.Data\\Entities\\LeaveRequest.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\Entities\\LeaveRequest.cs",
-              "RelativeToolTip": "ManagementSystem.Data\\Entities\\LeaveRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Title": "ManagementSystem.API",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj",
+              "RelativeDocumentMoniker": "ManagementSystem\\ManagementSystem.API.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\ManagementSystem.API.csproj",
+              "RelativeToolTip": "ManagementSystem\\ManagementSystem.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-08T21:41:19.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeaveRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\LeaveRequestDTO.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Core\\DTOs\\LeaveRequestDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\LeaveRequestDTO.cs",
+              "RelativeToolTip": "ManagementSystem.Core\\DTOs\\LeaveRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:18:45.933Z",
+              "WhenOpened": "2025-03-08T21:08:44.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Core\\DTOs\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\CreateUserDTO.cs",
+              "RelativeToolTip": "ManagementSystem.Core\\DTOs\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:07:51.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Program.cs",
+              "RelativeToolTip": "ManagementSystem\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwBwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T20:17:32.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Core\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\MappingProfile.cs",
+              "RelativeToolTip": "ManagementSystem.Core\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:03:31.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ManagementSystem\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ManagementSystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:36:42.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserPostModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Models\\UserPostModel.cs",
+              "RelativeDocumentMoniker": "ManagementSystem\\Models\\UserPostModel.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem\\Models\\UserPostModel.cs",
+              "RelativeToolTip": "ManagementSystem\\Models\\UserPostModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:29:34.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\Mapping.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Core\\Mapping.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\Mapping.cs",
+              "RelativeToolTip": "ManagementSystem.Core\\Mapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:01:55.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WorkHoursDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\WorkHoursDTO.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Core\\DTOs\\WorkHoursDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\WorkHoursDTO.cs",
+              "RelativeToolTip": "ManagementSystem.Core\\DTOs\\WorkHoursDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:08:16.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Core\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Core\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "ManagementSystem.Core\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T20:59:02.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Data\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "ManagementSystem.Data\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:33:22.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Service\\RoleService.cs",
+              "RelativeToolTip": "ManagementSystem.Service\\RoleService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:32:01.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "ManagementSystem.Data\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05E9\u05E0\u05D4 \u05D1\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\Entities\\Role.cs",
+              "RelativeToolTip": "ManagementSystem.Data\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:24:01.473Z",
               "EditorCaption": ""
             }
           ]

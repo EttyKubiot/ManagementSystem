@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {}
+    "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
+    "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
         "projectName": "ManagementSystem.Data",
-        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\ManagementSystem.Data.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\net\\Project\\ManagementSystem\\ManagementSystem.Data\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\תכנות שנה ב\\MyNetProject\\ManagementSystem\\ManagementSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
