@@ -31,7 +31,10 @@ namespace ManagementSystem.Services
 
             return user;
         }
-
+        public async Task<User?> GetUserByNameAsync(string firstName, string lastName)
+        {
+            return await _userRepository.GetUserByNameAsync(firstName, lastName);
+        }
         public async Task<List<User>> GetUsersAsync()
         {
             return await _userRepository.GetAllUsersAsync();

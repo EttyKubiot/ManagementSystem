@@ -4,6 +4,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using ManagementSystem.Data.Entities;
+using ManagementSystem.Services;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace ManagementSystem.API.Controllers
@@ -12,38 +14,46 @@ namespace ManagementSystem.API.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly UserService _userService;
         private readonly IConfiguration _configuration;
+        private readonly IPasswordHasher<User> _passwordHasher;
 
-        public AuthController(IConfiguration configuration)
+        public AuthController(UserService userService, IConfiguration configuration, IPasswordHasher<User> passwordHasher)
         {
+            _userService = userService;
             _configuration = configuration;
-
+            _passwordHasher = passwordHasher;
         }
 
-        [HttpPost]
-        public IActionResult Login([FromBody] LoginModel loginModel)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginModel loginModel)
         {
-            if (loginModel.FirstName == "malkabr" && loginModel.Password == "123456")
-            {
-                var claims = new List<Claim>()
-            {
-                new Claim(ClaimTypes.Name, "malkabr"),
-                new Claim(ClaimTypes.Role, "teacher")
-            };
+            var user = await _userService.GetUserByNameAsync(loginModel.FirstName, loginModel.LastName);
+            if (user == null)
+                return Unauthorized(new { message = "User not found" });
 
-                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetValue<string>("JWT:Key")));
-                var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
-                var tokeOptions = new JwtSecurityToken(
-                    issuer: _configuration.GetValue<string>("JWT:Issuer"),
-                    audience: _configuration.GetValue<string>("JWT:Audience"),
-                    claims: claims,
-                    expires: DateTime.Now.AddMinutes(6),
-                    signingCredentials: signinCredentials
-                );
-                var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
-                return Ok(new { Token = tokenString });
-            }
-            return Unauthorized();
+            var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, loginModel.Password);
+            if (result == PasswordVerificationResult.Failed)
+                return Unauthorized(new { message = "Invalid password" });
+
+            var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}"),
+             new Claim(ClaimTypes.Role, user.Role.Name)
+        };
+
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
+            var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+            var tokenOptions = new JwtSecurityToken(
+                issuer: _configuration["JWT:Issuer"],
+                audience: _configuration["JWT:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(30),
+                signingCredentials: signinCredentials
+            );
+
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+            return Ok(new { Token = tokenString });
         }
     }
 }

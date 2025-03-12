@@ -19,6 +19,10 @@ namespace ManagementSystem.Data.Repositories
         {
             return await _context.Users.ToListAsync();
         }
+        public async Task<User?> GetUserByNameAsync(string firstName, string lastName)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.FirstName == firstName && u.LastName == lastName);
+        }
 
         public async Task<User?> GetUserByIdAsync(int id)
         {
