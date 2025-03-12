@@ -2,6 +2,8 @@
 using ManagementSystem.Services;
 using ManagementSystem.Data.Entities;
 using ManagementSystem.Data;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace ManagementSystem.API.Controllers
 {
@@ -33,9 +35,31 @@ namespace ManagementSystem.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> CancelLeaveRequest(int id)
         {
+            var request = await _leaveRequestService.GetLeaveRequestByIdAsync(id);
+            if (request == null) return NotFound();
+
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+            if (request.UserId != userId)
+            {
+                return Forbid(); // ❌ אי אפשר למחוק בקשות של מישהו אחר!
+            }
+
             var deleted = await _leaveRequestService.DeleteLeaveRequestAsync(id);
-            if (!deleted) return NotFound();
-            return NoContent();
+            return deleted ? NoContent() : NotFound();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("approve/{id}")]
+        public async Task<IActionResult> ApproveLeaveRequest(int id, [FromBody] bool isApproved)
+        {
+
+            var request = await _leaveRequestService.GetLeaveRequestByIdAsync(id);
+            if (request == null) return NotFound();
+
+            request.IsApproved = isApproved;  // ✅ נעדכן את הבקשה לפי החלטת המנהל
+            await _leaveRequestService.UpdateLeaveRequestAsync(request);
+
+            return Ok(request);
         }
     }
 }

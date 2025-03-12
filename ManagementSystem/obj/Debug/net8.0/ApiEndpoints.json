@@ -64,6 +64,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ManagementSystem.API.Controllers.LeaveRequestController",
+    "Method": "ApproveLeaveRequest",
+    "RelativePath": "api/LeaveRequest/approve/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isApproved",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ManagementSystem.API.Controllers.RoleController",
     "Method": "GetRoles",
     "RelativePath": "api/Role",
@@ -113,6 +134,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementSystem.API.Controllers.UserController",
+    "Method": "TestError",
+    "RelativePath": "api/User/test-error",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

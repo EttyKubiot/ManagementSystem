@@ -23,7 +23,7 @@ namespace ManagementSystem.API.Controllers
         [HttpPost]
         public IActionResult Login([FromBody] LoginModel loginModel)
         {
-            if (loginModel.UserName == "malkabr" && loginModel.Password == "123456")
+            if (loginModel.FirstName == "malkabr" && loginModel.Password == "123456")
             {
                 var claims = new List<Claim>()
             {

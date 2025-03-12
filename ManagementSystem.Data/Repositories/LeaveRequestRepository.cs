@@ -40,19 +40,20 @@ namespace ManagementSystem.Data.Repositories
         }
 
         // עדכון בקשת חופשה
-        public async Task<LeaveRequest?> UpdateLeaveRequestAsync(LeaveRequest leaveRequest)
+        public async Task<bool> UpdateLeaveRequestAsync(LeaveRequest request)
         {
-            var existingRequest = await _context.LeaveRequests.FindAsync(leaveRequest.Id);
-            if (existingRequest == null) return null;
-
-            existingRequest.StartDate = leaveRequest.StartDate;
-            existingRequest.EndDate = leaveRequest.EndDate;
-            existingRequest.Reason = leaveRequest.Reason;
-            existingRequest.IsApproved = leaveRequest.IsApproved;
-
-            await _context.SaveChangesAsync();
-            return existingRequest;
+            _context.LeaveRequests.Update(request);
+            return await _context.SaveChangesAsync() > 0;
         }
+
+        public async Task<LeaveRequest?> GetLeaveRequestByIdAsync(int id)
+        {
+            return await _context.LeaveRequests.FirstOrDefaultAsync(l => l.Id == id);
+        }
+
+      
+
+
     }
 }
 

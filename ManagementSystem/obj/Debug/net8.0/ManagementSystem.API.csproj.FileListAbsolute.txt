@@ -157,9 +157,9 @@ C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\Manag
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.AssemblyInfoInputs.cache
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.AssemblyInfo.cs
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.csproj.CoreCompileInputs.cache
-C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.sourcelink.json
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\nlog.config
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\appsettings.json
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\ManagementSystem.API.staticwebassets.endpoints.json
@@ -173,7 +173,10 @@ C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\Manag
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Humanizer.dll
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -189,9 +192,11 @@ C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\Manag
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -218,6 +223,7 @@ C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\Manag
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
@@ -313,3 +319,4 @@ C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\Manag
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.pdb
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.genruntimeconfig.cache
 C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ref\ManagementSystem.API.dll
+C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem\obj\Debug\net8.0\ManagementSystem.API.MvcApplicationPartsAssemblyInfo.cs

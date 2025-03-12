@@ -12,6 +12,12 @@ namespace ManagementSystem.Data.Repositories
             _context = context;
         }
 
+        public async Task<WorkHours?> GetWorkHoursByIdAsync(int id)
+        {
+            return await _context.WorkHours.FirstOrDefaultAsync(w => w.Id == id);
+        }
+
+
         public async Task<List<WorkHours>> GetWorkHoursByUserIdAsync(int userId)
         {
             return await _context.WorkHours.Where(wh => wh.UserId == userId).ToListAsync();

@@ -2,6 +2,7 @@
 using ManagementSystem.Services;
 using ManagementSystem.Data.Entities;
 using ManagementSystem.Data;
+using System.Security.Claims;
 
 namespace ManagementSystem.API.Controllers
 {
@@ -33,9 +34,17 @@ namespace ManagementSystem.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteWorkHours(int id)
         {
+            var workHours = await _workHoursService.GetWorkHoursByIdAsync(id);
+            if (workHours == null) return NotFound();
+
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
+            if (workHours.UserId != userId)
+            {
+                return Forbid(); // ❌ אי אפשר למחוק שעות של מישהו אחר!
+            }
+
             var deleted = await _workHoursService.DeleteWorkHoursAsync(id);
-            if (!deleted) return NotFound();
-            return NoContent();
+            return deleted ? NoContent() : NotFound();
         }
     }
 }

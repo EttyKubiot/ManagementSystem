@@ -1,0 +1,150 @@
+2025-03-12 23:21:29.4023 | Info | Application is starting... | 
+2025-03-12 23:21:30.0248 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:21:30.1995 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:21:30.1995 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:21:30.2412 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:21:30.2442 | Info | Hosting environment: Development | 
+2025-03-12 23:21:30.2442 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:23:41.3832 | Info | Application is starting... | 
+2025-03-12 23:23:41.9588 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:23:42.1153 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:23:42.1153 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:23:42.1437 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:23:42.1437 | Info | Hosting environment: Development | 
+2025-03-12 23:23:42.1437 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:23:43.7282 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:23:43.8679 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 146.3040ms | 
+2025-03-12 23:23:43.8874 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:23:43.8874 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 8.7826ms | 
+2025-03-12 23:23:43.9538 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:23:43.9937 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.0885ms | 
+2025-03-12 23:23:44.0664 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:23:44.0827 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 16.4322ms | 
+2025-03-12 23:23:44.0827 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/favicon-32x32.png - - - | 
+2025-03-12 23:23:44.0932 | Info | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' | 
+2025-03-12 23:23:44.0932 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/favicon-32x32.png - 200 628 image/png 10.7984ms | 
+2025-03-12 23:25:37.1840 | Info | Application is starting... | 
+2025-03-12 23:25:37.7666 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:25:37.9274 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:25:37.9274 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:25:37.9625 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:25:37.9625 | Info | Hosting environment: Development | 
+2025-03-12 23:25:37.9625 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:25:38.7727 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:25:38.9551 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 192.7890ms | 
+2025-03-12 23:25:38.9790 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:25:38.9790 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 5.4494ms | 
+2025-03-12 23:25:39.0398 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:25:39.0831 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 43.3913ms | 
+2025-03-12 23:25:39.1909 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:25:39.2128 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 22.5535ms | 
+2025-03-12 23:26:02.8224 | Info | Application is starting... | 
+2025-03-12 23:26:03.3130 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:26:03.4904 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:26:03.4904 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:26:03.5419 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:26:03.5419 | Info | Hosting environment: Development | 
+2025-03-12 23:26:03.5419 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:26:04.2541 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:26:04.4138 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 165.2885ms | 
+2025-03-12 23:26:04.4322 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:26:04.4322 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 5.2984ms | 
+2025-03-12 23:26:04.5056 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:26:04.5448 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 40.2461ms | 
+2025-03-12 23:26:04.6484 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:26:04.6691 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 20.9438ms | 
+2025-03-12 23:26:15.2632 | Info | Request starting HTTP/2 GET https://localhost:7106/api/User/test-error - - - | 
+2025-03-12 23:26:15.3527 | Info | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. | 
+2025-03-12 23:26:15.3527 | Info | AuthenticationScheme: Bearer was challenged. | 
+2025-03-12 23:26:15.3527 | Info | Request finished HTTP/2 GET https://localhost:7106/api/User/test-error - 401 0 - 92.6169ms | 
+2025-03-12 23:32:52.4110 | Info | Application is starting... | 
+2025-03-12 23:32:52.9313 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:32:53.1401 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:32:53.1401 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:32:53.1809 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:32:53.1809 | Info | Hosting environment: Development | 
+2025-03-12 23:32:53.1809 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:32:54.0059 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:32:54.1495 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 149.8424ms | 
+2025-03-12 23:32:54.1699 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:32:54.1699 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 8.3965ms | 
+2025-03-12 23:32:54.1980 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:32:54.2363 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 38.6926ms | 
+2025-03-12 23:32:54.2896 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:32:54.3053 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 16.1121ms | 
+2025-03-12 23:33:00.1655 | Info | Request starting HTTP/2 GET https://localhost:7106/api/User/test-error - - - | 
+2025-03-12 23:33:00.2202 | Info | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. | 
+2025-03-12 23:33:00.2202 | Info | AuthenticationScheme: Bearer was challenged. | 
+2025-03-12 23:33:00.2202 | Info | Request finished HTTP/2 GET https://localhost:7106/api/User/test-error - 401 0 - 57.3404ms | 
+2025-03-12 23:35:15.5825 | Info | Application is starting... | 
+2025-03-12 23:35:16.1582 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:35:16.3114 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:35:16.3114 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:35:16.3394 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:35:16.3394 | Info | Hosting environment: Development | 
+2025-03-12 23:35:16.3394 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:35:19.1005 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:35:19.2802 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 185.0278ms | 
+2025-03-12 23:35:19.3030 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:35:19.3112 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 8.1003ms | 
+2025-03-12 23:35:19.3302 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:35:19.7982 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 468.4009ms | 
+2025-03-12 23:35:19.8467 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:35:19.8636 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 17.2942ms | 
+2025-03-12 23:35:27.8997 | Info | Request starting HTTP/2 GET https://localhost:7106/api/User/test-error - - - | 
+2025-03-12 23:35:27.9621 | Info | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. | 
+2025-03-12 23:35:27.9621 | Info | AuthenticationScheme: Bearer was challenged. | 
+2025-03-12 23:35:27.9621 | Info | Request finished HTTP/2 GET https://localhost:7106/api/User/test-error - 401 0 - 64.9562ms | 
+2025-03-12 23:36:47.7674 | Info | Application is starting... | 
+2025-03-12 23:36:48.3601 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:36:48.5330 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:36:48.5330 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:36:48.5646 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:36:48.5646 | Info | Hosting environment: Development | 
+2025-03-12 23:36:48.5646 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:36:49.1428 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:36:49.2858 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 150.9993ms | 
+2025-03-12 23:36:49.3091 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:36:49.3091 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 8.3205ms | 
+2025-03-12 23:36:49.3354 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:36:49.3704 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 35.1457ms | 
+2025-03-12 23:36:49.4208 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:36:49.4371 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 16.5410ms | 
+2025-03-12 23:37:49.4106 | Info | Application is starting... | 
+2025-03-12 23:37:49.9575 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:37:50.1276 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:37:50.1276 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:37:50.1708 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:37:50.1708 | Info | Hosting environment: Development | 
+2025-03-12 23:37:50.1708 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:37:50.7625 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:37:50.9216 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 166.3797ms | 
+2025-03-12 23:37:50.9427 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:37:50.9495 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 7.0035ms | 
+2025-03-12 23:37:50.9685 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:37:51.0055 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 37.1837ms | 
+2025-03-12 23:37:51.0607 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:37:51.0737 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 13.2427ms | 
+2025-03-12 23:38:02.2020 | Info | Request starting HTTP/2 GET https://localhost:7106/api/User/test-error - - - | 
+2025-03-12 23:38:02.2828 | Info | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. | 
+2025-03-12 23:38:02.2828 | Info | AuthenticationScheme: Bearer was challenged. | 
+2025-03-12 23:38:02.2828 | Info | Request finished HTTP/2 GET https://localhost:7106/api/User/test-error - 401 0 - 84.2342ms | 
+2025-03-12 23:39:05.8275 | Info | Application is starting... | 
+2025-03-12 23:39:06.4092 | Info | User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. | 
+2025-03-12 23:39:06.5860 | Info | Now listening on: https://localhost:7106 | 
+2025-03-12 23:39:06.5860 | Info | Now listening on: http://localhost:5059 | 
+2025-03-12 23:39:06.6286 | Info | Application started. Press Ctrl+C to shut down. | 
+2025-03-12 23:39:06.6286 | Info | Hosting environment: Development | 
+2025-03-12 23:39:06.6286 | Info | Content root path: C:\Users\user\Documents\תכנות שנה ב\MyNetProject\ManagementSystem\ManagementSystem | 
+2025-03-12 23:39:07.2464 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - - - | 
+2025-03-12 23:39:07.3935 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 - text/html;charset=utf-8 151.9424ms | 
+2025-03-12 23:39:07.4173 | Info | Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - - - | 
+2025-03-12 23:39:07.4173 | Info | Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript;+charset=utf-8 10.1300ms | 
+2025-03-12 23:39:07.4428 | Info | Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - - - | 
+2025-03-12 23:39:07.4771 | Info | Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 34.6581ms | 
+2025-03-12 23:39:07.5671 | Info | Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - - - | 
+2025-03-12 23:39:07.5859 | Info | Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 19.1705ms | 

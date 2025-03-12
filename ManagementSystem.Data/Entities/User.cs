@@ -13,5 +13,6 @@ namespace ManagementSystem.Data.Entities
         public List<LeaveRequest>? LeaveRequests { get; set; }
         public int RoleId { get; set; } // Foreign Key
         public Role? Role { get; set; }
+        public string PasswordHash { get; set; }
     }
 }

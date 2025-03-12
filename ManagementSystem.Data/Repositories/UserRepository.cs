@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ManagementSystem.Data.Entities;
 
+
 namespace ManagementSystem.Data.Repositories
 {
     public class UserRepository
@@ -12,6 +13,8 @@ namespace ManagementSystem.Data.Repositories
             _context = context;
         }
 
+       
+
         public async Task<List<User>> GetAllUsersAsync()
         {
             return await _context.Users.ToListAsync();
@@ -20,6 +23,12 @@ namespace ManagementSystem.Data.Repositories
         public async Task<User?> GetUserByIdAsync(int id)
         {
             return await _context.Users.FindAsync(id);
+        }
+
+        public async Task<User?> GetUserByFullNameAsync(string firstName, string lastName)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(u => u.FirstName == firstName && u.LastName == lastName);
         }
 
         public async Task<User> AddUserAsync(User user)

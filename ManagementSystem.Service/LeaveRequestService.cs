@@ -27,5 +27,14 @@ namespace ManagementSystem.Services
         {
             return await _leaveRequestRepository.DeleteLeaveRequestAsync(id);
         }
+
+        public async Task<LeaveRequest?> GetLeaveRequestByIdAsync(int id)
+        {
+            return await _leaveRequestRepository.GetLeaveRequestByIdAsync(id);
+        }
+        public async Task<bool> UpdateLeaveRequestAsync(LeaveRequest request)
+        {
+            return await _leaveRequestRepository.UpdateLeaveRequestAsync(request);
+        }
     }
 }

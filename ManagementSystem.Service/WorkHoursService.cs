@@ -27,5 +27,11 @@ namespace ManagementSystem.Services
         {
             return await _workHoursRepository.DeleteWorkHoursAsync(id);
         }
+
+        public async Task<WorkHours?> GetWorkHoursByIdAsync(int id)
+        {
+            return await _workHoursRepository.GetWorkHoursByIdAsync(id);
+        }
+
     }
 }
